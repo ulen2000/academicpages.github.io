@@ -8,7 +8,18 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+**Research Overview**
+I consider myself as a "distributed systems" guy as I have always been involved in various domains (read "avatars") of this field. "Divided we stand, united we fall" is my personal motto in the context of computer networking research.
+
+**Edge Computing** A broad theme of my research explores the physical deployment, specifications and effective utilization of compute resources at the network "edge". The problem is complex primarily due to different requirements imposed by emerging applications. For example, Internet-of-Things need data aggregation, autonomous vehicles require graphical processing, automated industry necessitates task interoperability and AR/VR demands ultra-low network latency. Incorporating such varying application demands to model an always available, semi-managed network of edge servers is something I quite enjoy.
+
+
+**Next Generation Networks** Emerging applications have significantly changed the way we interact with the underlying network. Our old-yet-faithful protocol, TCP has started to show cracks in performance, especially in emerging cellular and wireless environments (e.g. 5G/6G, LEO satellites). I enjoy exploring and designing next-generation networking solutions which can plug-in several existing performance holes. For this measure, I am interested in working on protocols such as multipath flavors of TCP (MPTCP) and QUIC (MP-QUIC), Information Centric Networks (ICN) and more.
+ Selected Publications	WebConf '24 IMC '22 Networking '18
+Internet-wide MeasurementsI am interested in analyzing and challenging several widespread preconceptions within networking research community via real-world measurements. The problems I particularly tackle in this domain range from performance analysis of transport protocols (TCP, QUIC, etc.) in varying environments and workloads, Internet-wide scans to analyze support for emerging protocols and widescale measurments to analyze cloud/CDN reachability.
+
+
+**Application & Service Deployment** There is a rapid shift in the make-up of cloud computing as cloud providers try to incorporate edge resources and edge accelerators widely distributed in the region. The brunt of the complexity will be borne by existing cloud-based application as they need to depart from traditional monolithic client-server model. Another aim of my research is to devise intelligent softwarized applications and services which can adapt, adjust and adopt to changes in underlying compute infrastructure without sacrificing performance or quality-of-service.
 
 A data-driven personal website
 ======
